@@ -779,8 +779,22 @@ template {
     }
 
     .tech {
+    margin: 10px;
+    width: 100%; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    text-align: center; 
+    }
+    
+    .tech img {
         margin: 10px;
-        width: 330px
+        width: 75px; 
+        height: 75px;
+    }
+    
+    .tech h1, .tech p {
+        width: 100%; 
     }
 
     #projects {
@@ -1653,7 +1667,22 @@ a img {
 }
 
 .tech {
-    margin: 10px
+    margin: 10px;
+    width: 100%; 
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    text-align: center; 
+    }
+    
+.tech img {
+    margin: 10px;
+    width: 75px; 
+    height: 75px;
+}
+
+.tech h1, .tech p {
+    width: 100%; 
 }
 
 .user {
